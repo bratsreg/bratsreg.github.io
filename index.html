@@ -289,17 +289,51 @@
             <p class="text no-bottom-margin">
               Please note that you are expected to use CBICA's IPP to evaluate your method against the ground truth labels of the validation datasets. 
               You are free to use and/or refer to the BraTS-Reg datasets in your own research, provided that you always cite the following manuscript:
-              [1] B.Baheti, D.Waldmannstetter, S.Chakrabarty, et al., "The Brain Tumor Sequence Registration Challenge: Establishing Correspondence between Pre-Operative and Follow-up MRI scans of diffuse glioma patients", arXiv preprint 2112.06979 (2021)
             </p>
-
-            
+            <p class="text no-bottom-margin">
+              [1] B.Baheti, D.Waldmannstetter, S.Chakrabarty, et al., "The Brain Tumor Sequence Registration Challenge: Establishing Correspondence between Pre-Operative and Follow-up MRI scans of diffuse glioma patients", arXiv preprint 2112.06979 (2021)
+            </p>            
           </div>
         </div>
-        <!--Registration / Data Request-->
+        <!-- End of Registration / Data Request-->
         <!-------------------------------------------------------------------------------------------->
         <!-------------------------------------------------------------------------------------------->
 
+        <!--Start Leaderboard-->
+        <div class="flex-row">
+          <div class="flex-item flex-column full-width">
+            <h2>Leaderboard</h2>
+            <hr>
+            <p class="text">
+              The leaderboard of Training and Validation phase of BraTSReg challenge is now live at: https://www.cbica.upenn.edu/BraTSReg22/ . This is the unranked leaderboard including the numbers of cases each team has uploaded and the latest evaluation metrics for these cases.
+            </p>
+            <p class="text">
+              Taking all the above into consideration, finding spatial correspondences between two longitudinal scans of brain tumor patients, i.e., the registration between the baseline pre-operative and follow-up MRI scans, can advance our mechanistic understanding for these tumors. Specifically, for tumor infiltration and potential recurrence, further contributing in the generation of predictive modelling for related pathophysiological processes, but also in understanding biophysical dynamic and plasticity characteristic of brain tissues, as well as for neurosurgical planning.
+            </p>            
+          </div>
+        </div>
+        <!--End Leaderboard-->
 
+        <!--Start Submission of Containers for Testing Phase-->
+        <div class="flex-row">
+          <div class="flex-item flex-column full-width">
+            <h2>Submission of Containers for Testing Phase</h2>
+            <hr>
+            <p class="text">
+              The test data will not be released publicly and the participants need to submit their method in a containerized form (Singularity) to be evaluated by the organizers on the hidden test data. The specific instructions for creating singularity containers are provided at: https://github.com/satrajitgithub/BraTS_Reg_submission_instructions
+            </p>
+            <p class="text">
+              Please note that there are additional outputs required from containers, along with the warped landmark locations and determinant of Jacobian, as detailed in the container submission instructions. We would suggest you to submit the containers before the deadline, if you can. This will allow us to check if there are any issues with the containers and can inform you accordingly.
+            </p>  
+             <p class="text">
+               Once the container is submitted as per the above instructions, please make sure to email the organizers the exact name of the container that you have uploaded to the “Sylabs Cloud Library”: library://<your_sylab_username>/BraTS_Reg/BraTS_Reg_<team_name>[:<tag>] 
+             </p>
+             <p class="text">
+               The challenge organizers will run all the methods on the test data using own computational infrastructure to confirm reproducibility of results. Please note that your containers will be evaluated only if you have submitted the accompanying manuscript.
+             </p>
+          </div>
+        </div>
+        <!--End Submission of Containers for Testing Phase-->
 
         
         <!--Start Alumni-->
