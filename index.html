@@ -131,38 +131,6 @@
         <!-------------------------------------------------------------------------------------------->
 
 
-        <!-------------------------------------------------------------------------------------------->
-        <!--Start Participation Timeline Summary-->
-        <div class="flex-row">
-          <div class="flex-item flex-column full-width">
-            <h2>Participation Timeline Summary</h2>
-            <hr>
-            <b class="text">
-              Training & Validation Data availability (April 2022) 
-            </b>
-            <p class="text">
-              Register for the BraTS-Reg challenge, to get access to the NIFTI, skull-stripped, and annotated training data. An independent set of validation scans will be made available to the participants, with the intention to allow them assess the generalizability of their methods on unseen data, via the official evaluation platform. Note that the training data will include its corresponding ground truth, whereas the validation data will have its ground truth data held by the organizers at all times. 
-            </p>
-            <p class="text">
-              Participants will have to evaluate their methods on the training and validation datasets, and submit short paper describing their method and results. The organizers will review the paper for sufficient details required to understand and reproduce the algorithm. The challenge participants will be given a chance with the option to extend their individual papers, and hence publish their methods in Springer LNCS proceedings. 
-            </p>
-            <p class="text">
-              Participants will need to submit their method in a containerized form. Note that only participants that have submitted a short paper will be considered in the testing phase. The BraTS-Reg test data will not be made available to the participating teams at any point during the lifecycle of this challenge. We will communicate more details on how to create the expected containers soon. 
-            </p>
-            <p class="text">
-              The top-ranked participants of the testing phase will be contacted by August to prepare slides for orally presenting their method in MICCAI 2022.  The final results of the challenge will also be reported at MICCAI. 
-            </p>
-            <p class="text">
-              Finally, we intend to coordinate a journal meta-analysis manuscript in one of the reputed journals in the domain by extending the preprint appropriately to describe the challenge design, data, clinical relevance, and summarizing the results and insights of the challenge. 
-            </p>
-          </div>
-        </div>
-        <!--End Participation Timeline Summary-->
-        
-        <!-------------------------------------------------------------------------------------------->
-        <!-------------------------------------------------------------------------------------------->
-
-
         <!--Start Alumni-->
         <div class="flex-row">
           <div class="flex-item flex-column full-width">
@@ -230,66 +198,7 @@
         <!-------------------------------------------------------------------------------------------->
         <!-------------------------------------------------------------------------------------------->
 
-        <!--Start Clinical Relevance-->
-        <div class="flex-row">
-          <div class="flex-item flex-column full-width">
-            <h2>Clinical Relevance</h2>
-            <hr>
-            <p class="text">
-              Registration of baseline pre-operative (treatment-naïve) and follow-up brain tumor MRI scans is challenging, yet a clinically important task for a multitude of reasons. Brain tissue shows heavy deformations induced by the apparent tumor (also known as mass effect) that following its resection are relaxed due to the relieving pressure from the resected tissue. Such deformations affect the whole brain (including the lateral ventricles) and are not limited to the vicinity of the tumor. This is particularly important as the relationship of the tumor to the lateral ventricles and the deformations to the rest of the brain tissue are important factors in prognosis and treatment planning. Further changes in the peritumoral edematous/infiltrated tissue, potential tumor recurrence, as well as treatment related changes, also affect the brain tissue elasticity. The resected tissue/tumor also relates to missing correspondences, and inconsistent intensity profiles between the follow up and the baseline pre-operative scans.  
-            </p>
-            <p class="text">
-              Taking all the above into consideration, finding spatial correspondences between two longitudinal scans of brain tumor patients, i.e., the registration between the baseline pre-operative and follow-up MRI scans, can advance our mechanistic understanding for these tumors. Specifically, for tumor infiltration and potential recurrence, further contributing in the generation of predictive modelling for related pathophysiological processes, but also in understanding biophysical dynamic and plasticity characteristic of brain tissues, as well as for neurosurgical planning.
-            </p>            
-          </div>
-        </div>
-        <!--End Clinical Relevance-->
-        
-        <!-------------------------------------------------------------------------------------------->
-        <!-------------------------------------------------------------------------------------------->
-
-        <!--Start Task & Evaluation-->
-        <div class="flex-row">
-          <div class="flex-item flex-column full-width">
-            <h2>Task & Evaluation</h2>
-            <hr>
-            <p class="text">
-              The registration between pre-operative and follow-up MRI scans of brain glioma patients, is important yet challenging task. In this challenge, participants are invited to develop deformable image registration algorithm by using the provided clinically acquired training data and the annotations done by our expert clinical neuroradiologists.
-            </p>
-            <p class="text">
-              The evaluation of the registration between the two scans will be based on manually seeded landmarks (ground truth) in both the pre-operative and the follow-up scans. The performance will be quantitatively evaluated in terms of Median Absolute Error (MAE) and Robustness.
-            </p>
-          </div>
-        </div>
-        <!--End Task & Evaluation-->
-        
-        <!-------------------------------------------------------------------------------------------->
-        <!-------------------------------------------------------------------------------------------->
-
-
-        <!--Start Data-->
-        <div class="flex-row">
-          <div class="flex-item flex-column full-width">
-            <h2>Data</h2>
-            <hr>
-            <p class="text">
-              We have identified, curated, and pre-processed retrospective multi-institutional data. The data comprises of pairs of pre-operative baseline and follow-up MRI brain scans (each pair being of the same patient) diagnosed and treated for glioma. The exact multi-parametric MRI (mpMRI) sequences of each timepoint are i) native (T1) and ii) contrastenhancedT1-weighted (T1-CE), iii) T2-weighted and iv) T2Fluid Attenuated Inversion Recovery (FLAIR).
-            </p>
-            <p class="text">
-              In training phase, participants will be provided with the ground truth annotations along with the MRI data. The ground truth consists of location of some unique landmark points found in baseline scan and their corresponding locations in follow-up scan to develop the deformable registration algorithms.
-            </p>
-            <p class="text">
-              These landmarks are defined on anatomical markers such as blood vessel bifurcations, the anatomical shape of the cortex, and anatomical landmarks of the midline of the brain. The total number of landmarks vary from case to case and across all cases in the range of 6-50 per scan.
-            </p>
-            <p class="text">
-              The validation data will be provided to the participants as scan pairs of baseline and follow-up with landmarks provided only for the follow-up scan. Participants will submit coordinates of warped landmark locations in the baseline scan. Also, they will be called to upload their method in a containerized way for evaluation on testing data.
-            </p>
-          </div>
-        </div>
-        <!--End Data-->
-        
-        <!-------------------------------------------------------------------------------------------->
-        <!-------------------------------------------------------------------------------------------->
+       
 
         <!--Start Participation Timeline Summary-->
         <div class="flex-row">
