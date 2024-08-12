@@ -1,4 +1,2 @@
-# multix-amsterdam.github.io
 
-This repository hosts the code for the MultiX lab website, using the following template:
-- https://github.com/yenchiah/project-website-template
+This repository hosts the code for the BraTS-Reg website: https://bratsreg.github.io/
